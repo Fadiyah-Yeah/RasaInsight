@@ -110,8 +110,6 @@ Menyediakan pengelolaan data aplikasi:
 | Chart.js 4.4.0 | Visualisasi grafik pada halaman analitik |
 | Google Fonts (Inter) | Tipografi antarmuka |
 
-Tidak ada proses build atau instalasi dependency melalui npm.
-
 ---
 
 ## Arsitektur Aplikasi
@@ -136,8 +134,6 @@ Aplikasi menggunakan pemisahan tanggung jawab berbasis layer agar kode lebih mud
 6. **Application Entry Point**  
    Menginisialisasi aplikasi dan menghubungkan seluruh bagian melalui `js/core/app.js`.
 
-Urutan pemanggilan file JavaScript di `index.html` harus dipertahankan karena setiap layer memiliki dependensi terhadap layer sebelumnya.
-
 ---
 
 ## Cara Menjalankan
@@ -153,8 +149,6 @@ Urutan pemanggilan file JavaScript di `index.html` harus dipertahankan karena se
 3. Tunggu proses inisialisasi selesai.
 4. Ikuti layar import apabila aplikasi meminta data awal.
 5. Gunakan menu navigasi untuk membuka modul yang tersedia.
-
-Aplikasi dijalankan melalui alamat lokal `file://`. Tidak diperlukan Node.js, npm, atau perintah terminal.
 
 ---
 
