@@ -1,0 +1,91 @@
+﻿feedback_id,customer_id,transaction_id,feedback_date,rating,feedback_text,source,sentiment_label,topic_label
+FDB001,CUST012,TRX0275,2026-09-30,4,"Rasanya enak dan porsinya pas, pasti akan beli lagi.",Instagram,Positive,Service Speed
+FDB002,CUST098,TRX0348,2026-09-22,4,"Matcha latte-nya creamy, jadi favorit saya.",Google Review,Positive,Price
+FDB003,CUST010,TRX0389,2026-08-25,4,"Tempat cukup nyaman, hanya agak ramai saat sore.",In-app,Neutral,Product Quality
+FDB004,CUST008,TRX0322,2026-08-08,5,Pilihan menunya menarik dan banyak.,Google Review,Positive,Service Speed
+FDB005,CUST063,TRX0100,2026-10-04,5,"Rasanya enak dan porsinya pas, pasti akan beli lagi.",In-app,Positive,Ambience
+FDB006,CUST028,TRX0333,2026-10-12,4,"Rasa cukup enak, tetapi tidak terlalu berbeda dari tempat lain.",In-app,Neutral,Product Quality
+FDB007,CUST094,TRX0120,2026-08-23,4,Harga sesuai dengan kualitas produk.,Instagram,Positive,Product Quality
+FDB008,CUST086,TRX0239,2026-07-08,2,Harga terasa cukup mahal untuk ukuran porsinya.,In-app,Negative,Ambience
+FDB009,CUST099,TRX0058,2026-08-31,4,Harga standar untuk coffee shop.,In-app,Neutral,Product Quality
+FDB010,CUST089,TRX0246,2026-09-01,4,Harga sesuai dengan kualitas produk.,Google Review,Positive,Price
+FDB011,CUST083,TRX0356,2026-08-02,5,Pilihan menunya menarik dan banyak.,Google Review,Positive,Service Speed
+FDB012,CUST006,TRX0166,2026-10-17,4,"Rasanya enak dan porsinya pas, pasti akan beli lagi.",Instagram,Positive,Staff Service
+FDB013,CUST081,TRX0265,2026-06-18,4,"Rasanya enak dan porsinya pas, pasti akan beli lagi.",Instagram,Positive,Ambience
+FDB014,CUST050,TRX0094,2026-09-16,5,"Rasanya enak dan porsinya pas, pasti akan beli lagi.",In-app,Positive,Staff Service
+FDB015,CUST093,TRX0204,2026-08-12,4,Harga sesuai dengan kualitas produk.,Instagram,Positive,Service Speed
+FDB016,CUST030,TRX0191,2026-05-10,4,"Produknya oke, semoga pilihan menu bertambah.",Instagram,Neutral,Product Quality
+FDB017,CUST084,TRX0394,2026-05-04,4,Pilihan menunya menarik dan banyak.,In-app,Positive,Price
+FDB018,CUST076,TRX0094,2026-05-28,4,"Rasa cukup enak, tetapi tidak terlalu berbeda dari tempat lain.",In-app,Neutral,Price
+FDB019,CUST095,TRX0019,2026-08-11,5,"Matcha latte-nya creamy, jadi favorit saya.",In-app,Positive,Product Quality
+FDB020,CUST043,TRX0094,2026-05-31,3,"Pesanan sesuai, waktu tunggu masih bisa ditingkatkan.",Instagram,Neutral,Staff Service
+FDB021,CUST057,TRX0169,2026-09-26,4,Pilihan menunya menarik dan banyak.,Instagram,Positive,Ambience
+FDB022,CUST021,TRX0129,2026-09-02,4,Pelayanannya ramah dan pesanannya datang dengan cepat.,In-app,Positive,Ambience
+FDB023,CUST054,TRX0183,2026-08-30,1,Area meja kurang bersih saat saya berkunjung.,Google Review,Negative,Ambience
+FDB024,CUST031,TRX0149,2026-10-04,4,Croissant masih hangat dan teksturnya renyah.,In-app,Positive,Staff Service
+FDB025,CUST001,TRX0087,2026-06-30,4,Croissant masih hangat dan teksturnya renyah.,Google Review,Positive,Ambience
+FDB026,CUST060,TRX0047,2026-10-08,4,Pelayanannya ramah dan pesanannya datang dengan cepat.,In-app,Positive,Service Speed
+FDB027,CUST061,TRX0272,2026-06-15,3,"Tempat cukup nyaman, hanya agak ramai saat sore.",Google Review,Neutral,Service Speed
+FDB028,CUST043,TRX0301,2026-08-25,4,Croissant masih hangat dan teksturnya renyah.,In-app,Positive,Service Speed
+FDB029,CUST063,TRX0343,2026-05-30,3,Harga standar untuk coffee shop.,Instagram,Neutral,Staff Service
+FDB030,CUST096,TRX0051,2026-07-23,4,Pelayanannya ramah dan pesanannya datang dengan cepat.,In-app,Positive,Service Speed
+FDB031,CUST026,TRX0199,2026-06-26,4,"Rasa cukup enak, tetapi tidak terlalu berbeda dari tempat lain.",Google Review,Neutral,Service Speed
+FDB032,CUST079,TRX0308,2026-06-15,5,Tempatnya nyaman untuk mengerjakan tugas.,Instagram,Positive,Service Speed
+FDB033,CUST035,TRX0304,2026-07-25,3,"Tempat cukup nyaman, hanya agak ramai saat sore.",In-app,Neutral,Product Quality
+FDB034,CUST059,TRX0006,2026-06-13,2,Harga terasa cukup mahal untuk ukuran porsinya.,In-app,Negative,Ambience
+FDB035,CUST074,TRX0091,2026-06-28,2,Minuman yang diterima kurang sesuai dengan pesanan.,Instagram,Negative,Price
+FDB036,CUST036,TRX0002,2026-08-18,2,Staf kurang responsif ketika saya menyampaikan keluhan.,Instagram,Negative,Service Speed
+FDB037,CUST076,TRX0221,2026-09-24,1,Pesanan datang terlalu lama saat jam ramai.,Google Review,Negative,Ambience
+FDB038,CUST068,TRX0280,2026-08-31,4,Pelayanannya ramah dan pesanannya datang dengan cepat.,In-app,Positive,Ambience
+FDB039,CUST089,TRX0291,2026-08-13,3,"Tempat cukup nyaman, hanya agak ramai saat sore.",In-app,Neutral,Product Quality
+FDB040,CUST086,TRX0196,2026-06-11,5,Tempatnya nyaman untuk mengerjakan tugas.,In-app,Positive,Price
+FDB041,CUST048,TRX0092,2026-08-27,4,Harga sesuai dengan kualitas produk.,Google Review,Positive,Ambience
+FDB042,CUST055,TRX0236,2026-07-09,4,Harga sesuai dengan kualitas produk.,In-app,Positive,Ambience
+FDB043,CUST087,TRX0288,2026-05-14,2,Staf kurang responsif ketika saya menyampaikan keluhan.,Instagram,Negative,Product Quality
+FDB044,CUST023,TRX0348,2026-09-21,4,"Matcha latte-nya creamy, jadi favorit saya.",In-app,Positive,Ambience
+FDB045,CUST062,TRX0203,2026-09-26,4,"Matcha latte-nya creamy, jadi favorit saya.",Google Review,Positive,Ambience
+FDB046,CUST036,TRX0244,2026-05-17,4,"Produknya oke, semoga pilihan menu bertambah.",Instagram,Neutral,Ambience
+FDB047,CUST061,TRX0145,2026-09-14,2,Area meja kurang bersih saat saya berkunjung.,Instagram,Negative,Product Quality
+FDB048,CUST059,TRX0319,2026-05-21,5,"Rasanya enak dan porsinya pas, pasti akan beli lagi.",In-app,Positive,Service Speed
+FDB049,CUST090,TRX0273,2026-09-05,4,"Matcha latte-nya creamy, jadi favorit saya.",Google Review,Positive,Ambience
+FDB050,CUST061,TRX0068,2026-08-16,2,Minuman yang diterima kurang sesuai dengan pesanan.,In-app,Negative,Product Quality
+FDB051,CUST030,TRX0014,2026-10-13,2,Area meja kurang bersih saat saya berkunjung.,Instagram,Negative,Staff Service
+FDB052,CUST086,TRX0160,2026-09-13,5,Croissant masih hangat dan teksturnya renyah.,In-app,Positive,Staff Service
+FDB053,CUST034,TRX0080,2026-09-01,5,Pelayanannya ramah dan pesanannya datang dengan cepat.,Google Review,Positive,Staff Service
+FDB054,CUST022,TRX0298,2026-06-11,5,Pilihan menunya menarik dan banyak.,Instagram,Positive,Service Speed
+FDB055,CUST015,TRX0204,2026-07-21,4,"Matcha latte-nya creamy, jadi favorit saya.",In-app,Positive,Service Speed
+FDB056,CUST005,TRX0175,2026-07-21,5,Tempatnya nyaman untuk mengerjakan tugas.,Instagram,Positive,Service Speed
+FDB057,CUST016,TRX0190,2026-08-12,5,"Matcha latte-nya creamy, jadi favorit saya.",In-app,Positive,Product Quality
+FDB058,CUST070,TRX0230,2026-07-24,2,Harga terasa cukup mahal untuk ukuran porsinya.,Instagram,Negative,Service Speed
+FDB059,CUST094,TRX0133,2026-07-26,4,"Pesanan sesuai, waktu tunggu masih bisa ditingkatkan.",Instagram,Neutral,Ambience
+FDB060,CUST004,TRX0353,2026-10-06,4,"Rasanya enak dan porsinya pas, pasti akan beli lagi.",Google Review,Positive,Product Quality
+FDB061,CUST025,TRX0381,2026-09-12,4,"Rasa cukup enak, tetapi tidak terlalu berbeda dari tempat lain.",In-app,Neutral,Ambience
+FDB062,CUST087,TRX0222,2026-05-23,2,Roti terasa kurang segar ketika saya datang.,Instagram,Negative,Ambience
+FDB063,CUST008,TRX0065,2026-08-01,5,"Matcha latte-nya creamy, jadi favorit saya.",Google Review,Positive,Staff Service
+FDB064,CUST045,TRX0382,2026-07-18,5,Harga sesuai dengan kualitas produk.,Google Review,Positive,Price
+FDB065,CUST037,TRX0260,2026-08-17,1,Minuman yang diterima kurang sesuai dengan pesanan.,In-app,Negative,Staff Service
+FDB066,CUST068,TRX0216,2026-05-17,5,Tempatnya nyaman untuk mengerjakan tugas.,Instagram,Positive,Staff Service
+FDB067,CUST072,TRX0312,2026-10-29,4,Pilihan menunya menarik dan banyak.,Google Review,Positive,Staff Service
+FDB068,CUST006,TRX0013,2026-09-27,5,Pelayanannya ramah dan pesanannya datang dengan cepat.,In-app,Positive,Product Quality
+FDB069,CUST039,TRX0389,2026-10-10,5,Tempatnya nyaman untuk mengerjakan tugas.,In-app,Positive,Price
+FDB070,CUST083,TRX0245,2026-05-08,2,Pesanan datang terlalu lama saat jam ramai.,Instagram,Negative,Staff Service
+FDB071,CUST073,TRX0139,2026-07-06,3,Harga standar untuk coffee shop.,Instagram,Neutral,Ambience
+FDB072,CUST034,TRX0260,2026-09-26,4,Tempatnya nyaman untuk mengerjakan tugas.,Instagram,Positive,Service Speed
+FDB073,CUST007,TRX0164,2026-08-01,5,"Matcha latte-nya creamy, jadi favorit saya.",Google Review,Positive,Ambience
+FDB074,CUST010,TRX0343,2026-06-19,3,Harga standar untuk coffee shop.,Google Review,Neutral,Staff Service
+FDB075,CUST088,TRX0013,2026-07-09,2,Minuman yang diterima kurang sesuai dengan pesanan.,In-app,Negative,Service Speed
+FDB076,CUST048,TRX0349,2026-09-02,5,"Rasanya enak dan porsinya pas, pasti akan beli lagi.",In-app,Positive,Service Speed
+FDB077,CUST025,TRX0340,2026-10-05,4,"Rasanya enak dan porsinya pas, pasti akan beli lagi.",In-app,Positive,Service Speed
+FDB078,CUST062,TRX0297,2026-07-19,2,Harga terasa cukup mahal untuk ukuran porsinya.,Instagram,Negative,Staff Service
+FDB079,CUST039,TRX0027,2026-05-31,4,Harga sesuai dengan kualitas produk.,In-app,Positive,Staff Service
+FDB080,CUST017,TRX0063,2026-08-17,4,Pilihan menunya menarik dan banyak.,Google Review,Positive,Price
+FDB081,CUST014,TRX0210,2026-10-16,4,"Matcha latte-nya creamy, jadi favorit saya.",In-app,Positive,Product Quality
+FDB082,CUST002,TRX0364,2026-05-25,4,Pelayanannya ramah dan pesanannya datang dengan cepat.,Instagram,Positive,Staff Service
+FDB083,CUST019,TRX0208,2026-07-11,5,Pilihan menunya menarik dan banyak.,Instagram,Positive,Ambience
+FDB084,CUST073,TRX0205,2026-05-26,4,"Matcha latte-nya creamy, jadi favorit saya.",In-app,Positive,Ambience
+FDB085,CUST093,TRX0050,2026-06-24,5,Tempatnya nyaman untuk mengerjakan tugas.,Instagram,Positive,Product Quality
+FDB086,CUST046,TRX0026,2026-08-17,4,"Rasanya enak dan porsinya pas, pasti akan beli lagi.",Google Review,Positive,Product Quality
+FDB087,CUST067,TRX0162,2026-09-04,5,"Rasanya enak dan porsinya pas, pasti akan beli lagi.",Google Review,Positive,Price
+FDB088,CUST037,TRX0185,2026-10-01,5,Croissant masih hangat dan teksturnya renyah.,Google Review,Positive,Staff Service
+FDB089,CUST055,TRX0283,2026-05-18,1,Pesanan datang terlalu lama saat jam ramai.,Instagram,Negative,Price
+FDB090,CUST051,TRX0265,2026-09-11,3,"Produknya oke, semoga pilihan menu bertambah.",Google Review,Neutral,Ambience

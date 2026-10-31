@@ -1,0 +1,19 @@
+﻿product_id,product_name,category,product_type,price,cost,is_active
+PRD001,Classic Croissant,Pastry,Food,18000,8500,True
+PRD002,Chocolate Croissant,Pastry,Food,22000,10500,True
+PRD003,Cinnamon Roll,Pastry,Food,20000,9000,True
+PRD004,Butter Cookies,Bakery,Food,25000,11000,True
+PRD005,Sourdough Bread,Bakery,Food,38000,19000,True
+PRD006,Chicken Sandwich,Main Course,Food,32000,17000,True
+PRD007,Beef Lasagna,Main Course,Food,42000,23000,True
+PRD008,French Fries,Snack,Food,18000,7000,True
+PRD009,Matcha Latte,Coffee & Tea,Beverage,28000,11000,True
+PRD010,Iced Americano,Coffee & Tea,Beverage,22000,7000,True
+PRD011,Cafe Latte,Coffee & Tea,Beverage,26000,9000,True
+PRD012,Caramel Macchiato,Coffee & Tea,Beverage,30000,10500,True
+PRD013,Iced Chocolate,Non-Coffee,Beverage,25000,9000,True
+PRD014,Strawberry Tea,Non-Coffee,Beverage,21000,6500,True
+PRD015,Mineral Water,Other,Beverage,8000,2500,True
+PRD016,Red Velvet Cake,Dessert,Food,35000,16000,True
+PRD017,Cheesecake Slice,Dessert,Food,33000,15000,True
+PRD018,Banana Fritter,Snack,Food,16000,6000,True
