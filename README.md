@@ -140,40 +140,6 @@ Urutan pemanggilan file JavaScript di `index.html` harus dipertahankan karena se
 
 ---
 
-## Struktur Folder
-
-```text
-rasainsight/
-├── index.html
-├── IMPLEMENTATION_NOTES.md
-├── README.md
-├── css/
-│   ├── variables.css
-│   ├── base.css
-│   ├── layout.css
-│   ├── components.css
-│   ├── pages.css
-│   └── responsive-refinement.css
-├── js/
-│   ├── utils/
-│   │   ├── utils.js
-│   │   └── ui.js
-│   ├── data/
-│   │   ├── storage.js
-│   │   ├── repositories.js
-│   │   └── importer.js
-│   ├── services/
-│   ├── core/
-│   └── pages/
-└── assets/
-    ├── icons/
-    └── fonts/
-```
-
-Folder `services`, `core`, dan `pages` berisi file JavaScript sesuai tanggung jawab masing-masing modul.
-
----
-
 ## Cara Menjalankan
 
 ### Persiapan
@@ -255,7 +221,6 @@ Fitur reset menghapus seluruh data RasaInsight yang tersimpan pada LocalStorage 
 ## Informasi Aplikasi
 
 - **Nama:** RasaInsight
-- **Organisasi/Brand:** ADA RASA F&B
 - **Jenis:** Customer Relationship Management (CRM) & Business Intelligence
 - **Versi:** 1.0.0
 - **Platform:** Browser
