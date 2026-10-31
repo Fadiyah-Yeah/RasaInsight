@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="RasaInsight — CRM & Business Intelligence untuk ADA RASA F&B">
+  <title>RasaInsight — ADA RASA</title>
+
+  <!-- ─── Google Fonts (requires internet; fallback to system fonts if offline) ─── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- ─── CSS: Load in dependency order ─────────────────────── -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/responsive-refinement.css">
+
+  <!-- ─── Chart.js CDN (requires internet on first load; can be downloaded locally) ─── -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+  <style>
+    /* Inline critical: page loading state */
+    #app-loading {
+      position: fixed;
+      inset: 0;
+      background: #F5F0E8;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+      gap: 16px;
+      transition: opacity 0.3s ease;
+    }
+    #app-loading.hidden { opacity: 0; pointer-events: none; }
+    #app-loading .loading-logo {
+      width: 64px; height: 64px;
+      background: #5C8B6E;
+      border-radius: 16px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 24px; font-weight: 700; color: white;
+      font-family: 'Inter', sans-serif;
+    }
+    #app-loading .loading-text {
+      font-family: 'Inter', sans-serif;
+      font-size: 18px; font-weight: 600;
+      color: #2C1A0E;
+    }
+    #app-loading .loading-sub {
+      font-family: 'Inter', sans-serif;
+      font-size: 13px;
+      color: #9C7D66;
+    }
+    #app-loading .loading-spinner {
+      width: 28px; height: 28px;
+      border: 3px solid #E2D9CC;
+      border-top-color: #5C8B6E;
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+
+  <!-- ─── Initial Loading State ──────────────────────────────── -->
+  <div id="app-loading">
+    <div class="loading-logo">AR</div>
+    <div class="loading-text">RasaInsight</div>
+    <div class="loading-sub">ADA RASA — CRM &amp; BI</div>
+    <div class="loading-spinner"></div>
+  </div>
+
+  <!-- ─── App Root ────────────────────────────────────────────── -->
+  <div id="app"></div>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       JavaScript: LOAD ORDER IS CRITICAL
+       1. Utils (no dependencies)
+       2. UI helpers (depends on Utils)
+       3. Storage (depends on Utils + Toast)
+       4. Repositories (depends on Storage + Utils)
+       5. Importer (depends on Utils + Storage)
+       6. Services (depends on Repositories + Utils)
+       7. Core: Router, AppShell, ImportScreen (depends on all above)
+       8. Pages (depends on Services + Router + Utils)
+       9. App entry point (depends on everything)
+       ═══════════════════════════════════════════════════════════ -->
+
+  <!-- Layer 1: Utilities -->
+  <script src="js/utils/utils.js"></script>
+  <script src="js/utils/ui.js"></script>
+
+  <!-- Layer 2: Data Layer -->
+  <script src="js/data/storage.js"></script>
+  <script src="js/data/repositories.js"></script>
+  <script src="js/data/importer.js"></script>
+
+  <!-- Layer 3: Application Layer — Services -->
+  <script src="js/services/dashboard.service.js"></script>
+  <script src="js/services/customer.service.js"></script>
+  <script src="js/services/transaction.service.js"></script>
+  <script src="js/services/product.service.js"></script>
+  <script src="js/services/loyalty.service.js"></script>
+  <script src="js/services/feedback.service.js"></script>
+  <script src="js/services/complaint.service.js"></script>
+  <script src="js/services/bi.service.js"></script>
+
+  <!-- Layer 4: Application Layer — Core -->
+  <script src="js/core/router.js"></script>
+  <script src="js/core/app-shell.js"></script>
+  <script src="js/core/import-screen.js"></script>
+
+  <!-- Layer 5: Presentation Layer — Pages -->
+  <script src="js/pages/dashboard.page.js"></script>
+  <script src="js/pages/customers.page.js"></script>
+  <script src="js/pages/transactions.page.js"></script>
+  <script src="js/pages/products.page.js"></script>
+  <script src="js/pages/loyalty.page.js"></script>
+  <script src="js/pages/feedback.page.js"></script>
+  <script src="js/pages/complaints.page.js"></script>
+  <script src="js/pages/bi.page.js"></script>
+  <script src="js/pages/ai-insights.page.js"></script>
+  <script src="js/pages/settings.page.js"></script>
+
+  <!-- Layer 6: Application Entry Point -->
+  <script src="js/core/app.js"></script>
+
+  <!-- ─── Remove loading screen after init ──────────────────── -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Small delay to allow App.init() to render first frame
+      setTimeout(() => {
+        const loader = document.getElementById('app-loading');
+        if (loader) {
+          loader.classList.add('hidden');
+          setTimeout(() => loader.remove(), 300);
+        }
+      }, 400);
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,193 @@
+/* ============================================================
+   RasaInsight — Page-Specific Styles
+   Dashboard, Customers, Transactions, Products, etc.
+   ============================================================ */
+
+/* ─── Dashboard ─────────────────────────────────────────────── */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+}
+
+.dashboard-row {
+  display: grid;
+  gap: var(--space-4);
+  margin-bottom: var(--space-4);
+}
+
+.dashboard-row.two-col { grid-template-columns: 1fr 1fr; }
+.dashboard-row.main-side { grid-template-columns: 2fr 1fr; }
+.dashboard-row.side-main { grid-template-columns: 1fr 2fr; }
+.dashboard-row.three-col { grid-template-columns: repeat(3,1fr); }
+
+/* ─── Customer Profile ─────────────────────────────────────── */
+.customer-profile-header {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-5);
+  padding: var(--space-5);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  margin-bottom: var(--space-4);
+}
+
+.customer-avatar-xl {
+  width: 72px; height: 72px;
+  border-radius: 50%;
+  background: var(--color-primary-100);
+  color: var(--color-primary-dark);
+  display: flex; align-items: center; justify-content: center;
+  font-size: var(--text-2xl);
+  font-weight: var(--font-bold);
+  flex-shrink: 0;
+}
+
+.customer-meta { flex: 1; min-width: 0; }
+.customer-name { font-size: var(--text-xl); font-weight: var(--font-bold); }
+.customer-id   { font-size: var(--text-xs); color: var(--color-text-muted); margin-bottom: var(--space-2); }
+.customer-tags { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+
+/* ─── RFM Segment Colors ───────────────────────────────────── */
+.rfm-champion    { --seg-color: #22c55e; --seg-bg: #f0fdf4; }
+.rfm-loyal       { --seg-color: #3b82f6; --seg-bg: #eff6ff; }
+.rfm-potential   { --seg-color: #8b5cf6; --seg-bg: #f5f3ff; }
+.rfm-atrisk      { --seg-color: #f59e0b; --seg-bg: #fffbeb; }
+.rfm-lost        { --seg-color: #ef4444; --seg-bg: #fef2f2; }
+.rfm-new         { --seg-color: var(--color-accent); --seg-bg: var(--color-accent-50); }
+
+.rfm-badge {
+  display: inline-flex; align-items: center;
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  font-size: var(--text-xs);
+  font-weight: var(--font-semibold);
+  background: var(--seg-bg, var(--color-surface-alt));
+  color: var(--seg-color, var(--color-text-muted));
+}
+
+/* ─── Transaction Status ───────────────────────────────────── */
+.status-completed { background: var(--color-success-bg); color: var(--color-success); }
+.status-pending   { background: var(--color-warning-bg); color: var(--color-warning); }
+.status-cancelled { background: var(--color-danger-bg);  color: var(--color-danger); }
+
+/* ─── Complaint Priority ───────────────────────────────────── */
+.priority-high   { background: var(--color-danger-bg);  color: var(--color-danger); }
+.priority-medium { background: var(--color-warning-bg); color: var(--color-warning); }
+.priority-low    { background: var(--color-info-bg);    color: var(--color-info); }
+
+/* ─── Product Type ─────────────────────────────────────────── */
+.type-food     { background: var(--color-accent-50);    color: var(--color-accent-dark); }
+.type-beverage { background: var(--color-primary-50);   color: var(--color-primary-dark); }
+
+/* ─── Sentiment ────────────────────────────────────────────── */
+.sentiment-positive { background: var(--color-success-bg); color: var(--color-success); }
+.sentiment-neutral  { background: var(--color-warning-bg); color: var(--color-warning); }
+.sentiment-negative { background: var(--color-danger-bg);  color: var(--color-danger); }
+
+/* ─── Rating Stars ─────────────────────────────────────────── */
+.rating-stars { display: flex; gap: 2px; }
+.star-filled  { color: #F59E0B; }
+.star-empty   { color: var(--color-border); }
+
+/* ─── Progress Bar ─────────────────────────────────────────── */
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background: var(--color-border-light);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+.progress-bar-fill {
+  height: 100%;
+  border-radius: var(--radius-full);
+  background: var(--color-primary);
+  transition: width 0.5s ease;
+}
+
+/* ─── Import Screen ────────────────────────────────────────── */
+.import-screen {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-bg);
+  padding: var(--space-6);
+}
+
+.import-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-2xl);
+  padding: var(--space-12) var(--space-10);
+  max-width: 520px;
+  width: 100%;
+  text-align: center;
+  box-shadow: var(--shadow-xl);
+}
+
+.import-logo {
+  width: 72px; height: 72px;
+  background: var(--color-primary);
+  border-radius: var(--radius-xl);
+  display: flex; align-items: center; justify-content: center;
+  margin: 0 auto var(--space-6);
+  font-size: var(--text-2xl);
+  font-weight: var(--font-bold);
+  color: white;
+}
+
+.import-title { font-size: var(--text-2xl); font-weight: var(--font-bold); margin-bottom: var(--space-2); }
+.import-subtitle { color: var(--color-text-muted); margin-bottom: var(--space-8); }
+
+.file-drop-zone {
+  border: 2px dashed var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-10) var(--space-6);
+  cursor: pointer;
+  transition: all var(--transition-base);
+  margin-bottom: var(--space-4);
+}
+
+.file-drop-zone:hover,
+.file-drop-zone.drag-over {
+  border-color: var(--color-primary);
+  background: var(--color-primary-50);
+}
+
+.import-progress-list {
+  text-align: left;
+  margin-top: var(--space-4);
+}
+
+.import-progress-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-2) 0;
+  font-size: var(--text-sm);
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+.import-progress-item:last-child { border-bottom: none; }
+.import-status-icon { width: 20px; height: 20px; flex-shrink: 0; }
+
+/* ─── Responsive Overrides ─────────────────────────────────── */
+@media (max-width: 1200px) {
+  .dashboard-grid { grid-template-columns: repeat(2, 1fr); }
+  .dashboard-row.main-side { grid-template-columns: 1fr; }
+  .dashboard-row.side-main { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 768px) {
+  .dashboard-grid { grid-template-columns: repeat(2, 1fr); }
+  .dashboard-row.two-col { grid-template-columns: 1fr; }
+  .dashboard-row.three-col { grid-template-columns: 1fr; }
+  .customer-profile-header { flex-direction: column; }
+}
+
+@media (max-width: 480px) {
+  .dashboard-grid { grid-template-columns: 1fr; }
+}
