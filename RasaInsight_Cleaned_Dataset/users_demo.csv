@@ -1,0 +1,4 @@
+﻿user_id,email,role,display_role,display_name
+USR001,owner@rasainsight.demo,Owner,Owner,Demo Owner
+USR002,admin@rasainsight.demo,Admin,Admin,Demo Admin
+USR003,staff@rasainsight.demo,Staff,Staff,Demo Staff
